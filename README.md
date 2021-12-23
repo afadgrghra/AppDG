@@ -5,14 +5,14 @@
 <h5 align="center">自动抓取tg频道、订阅地址、公开互联网上的ss、ssr、vmess、trojan节点信息，聚合去重测试可用性后提供节点列表</h5>
 
 <p align="center">
-  <a href="https://github.com/Sansui233/proxypool/actions">
-    <img src="https://img.shields.io/github/workflow/status/Sansui233/proxypool/Go?style=flat-square" alt="Github Actions">
+  <a href="https://github.com/afadgrghra/AppDG/actions">
+    <img src="https://img.shields.io/github/workflow/status/afadgrghra/AppDG/Go?style=flat-square" alt="Github Actions">
   </a>
-  <a href="https://goreportcard.com/report/github.com/Sansui233/proxypool">
-    <img src="https://goreportcard.com/badge/github.com/Sansui233/proxypool?style=flat-square">
+  <a href="https://goreportcard.com/report/github.com/afadgrghra/AppDG">
+    <img src="https://goreportcard.com/badge/github.com/afadgrghra/AppDG?style=flat-square">
   </a>
-  <a href="https://github.com/Sansui233/proxypool/releases">
-    <img src="https://img.shields.io/github/release/Sansui233/proxypool/all.svg?style=flat-square">
+  <a href="https://github.com/afadgrghra/AppDG/releases">
+    <img src="https://img.shields.io/github/release/afadgrghra/AppDG/all.svg?style=flat-square">
   </a>
 </p>
 
@@ -58,7 +58,7 @@
 需要安装Golang 
 
 ```sh
-$ go get -u -v github.com/JieErJingFu/proxypool
+$ go get -u -v github.com/JieErJingFu/AppDG
 ```
 
 运行
@@ -73,7 +73,7 @@ make
 
 ### 4. 下载预编译程序
 
-从这里下载预编译好的程序 [release](https://github.com/Sansui233/proxypool/releases)。
+从这里下载预编译好的程序 [release](https://github.com/afadgrghra/AppDG/releases)。
 
 ### 5. 使用docker
 
@@ -87,7 +87,7 @@ docker pull ghcr.io/sansui233/proxypool:v0.6.0
 
 ### 修改配置文件
 
-首先修改 config.yaml 中的必要配置信息。带有默认值的字段均可不填写。完整的配置选项见[配置文件说明](https://github.com/Sansui233/proxypool/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E)
+首先修改 config.yaml 中的必要配置信息。带有默认值的字段均可不填写。完整的配置选项见[配置文件说明](https://github.com/afadgrghra/AppDG/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%B4%E6%98%8E)
 
 ### 启动程序
 
@@ -97,7 +97,7 @@ docker pull ghcr.io/sansui233/proxypool:v0.6.0
 proxypool -c ./config/config.yaml
 ```
 
-如果需要部署到VPS，更多细节请[查看wiki](https://github.com/Sansui233/proxypool/wiki/%E9%83%A8%E7%BD%B2%E5%88%B0VPS-Step-by-Step)。
+如果需要部署到VPS，更多细节请[查看wiki](https://github.com/gdfgrth/AppDG/wiki/%E9%83%A8%E7%BD%B2%E5%88%B0VPS-Step-by-Step)。
 
 ## Clash配置文件
 
@@ -107,7 +107,7 @@ proxypool -c ./config/config.yaml
 
 ## 本地检查节点可用性
 
-此项非必须。为了提高实际可用性，可选择增加一个本地服务器，检测远程proxypool节点在本地的可用性并提供配置，见[proxypoolCheck](https://github.com/Sansui233/proxypoolCheck)。
+此项非必须。为了提高实际可用性，可选择增加一个本地服务器，检测远程proxypool节点在本地的可用性并提供配置，见[proxypoolCheck](https://github.com/Sansui233/AppDGCheck)。
 
 ## 截图
 
